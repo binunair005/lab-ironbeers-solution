@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+nav {
+  background: #2081c3;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.main {
+  text-align: center;
+}
+
+.main .button {
+  display: inline-block;
+  background: #2081c3;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+footer {
+  margin-top: 20px;
+  padding: 10px;
+  background: #333;
+  color: white;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  width: 300px;
+  margin: 20px;
+}
+
+.card img {
+  height: 200px;
+}
